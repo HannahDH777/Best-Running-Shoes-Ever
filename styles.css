@@ -1,0 +1,18 @@
+.card{
+    justify-content: row;
+}
+.body{
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+    body {
+      justify-content: column;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+        justify-content: column;
+    }
+  }
+}
